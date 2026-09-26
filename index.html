@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sinetec Manutenção — Manutenção Elétrica e Refrigeração para Indústrias e Empresas</title>
+<meta name="description" content="Especialistas em manutenção elétrica e refrigeração de chillers industriais e hospitalares. Atendimento 24h em todo o Brasil.">
+<meta name="keywords" content="manutenção chiller, refrigeração industrial, manutenção elétrica industrial">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="assets/css/reset.css">
+<link rel="stylesheet" href="assets/css/main.css">
+<link rel="stylesheet" href="assets/css/components.css">
+<link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+
+<!-- LOADER -->
+<div class="loader" id="loader">
+  <div class="loader-inner"></div>
+  <p>SINETEC</p>
+</div>
+
+<!-- PROGRESS BAR -->
+<div class="progress-bar" id="progressBar"></div>
+
+<!-- WHATSAPP FLUTUANTE -->
+<a href="#" class="whats-float js-whats" target="_blank" aria-label="WhatsApp">
+  <span class="tooltip">Fale conosco agora!</span>
+  <svg viewBox="0 0 24 24"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38c1.45.79 3.08 1.21 4.79 1.21 5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm5.8 14.03c-.24.68-1.4 1.3-1.94 1.38-.5.07-1.13.1-1.82-.11-.42-.13-.96-.31-1.65-.61-2.9-1.25-4.79-4.17-4.93-4.36-.14-.19-1.18-1.57-1.18-2.99s.75-2.12 1.01-2.41c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.98.88 2.12.07.14.12.31.02.5-.1.19-.15.31-.29.48-.14.17-.3.38-.43.51-.14.14-.29.29-.12.57.17.29.75 1.24 1.61 2.01 1.11.99 2.04 1.3 2.33 1.44.29.14.46.12.63-.07.17-.19.72-.84.91-1.13.19-.29.38-.24.64-.14.26.1 1.65.78 1.93.92.29.14.48.21.55.33.07.12.07.68-.17 1.36z"/></svg>
+</a>
+
+<!-- VOLTAR AO TOPO -->
+<div class="back-top" id="backTop">
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</div>
+
+<!-- NAVBAR -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <div class="logo" data-nav="home">
+      <span class="logo-dot"></span>
+      SINETEC<span> Manutenção</span>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a data-nav="home">Home</a></li>
+      <li><a data-nav="servicos">Serviços</a></li>
+      <li><a data-nav="portfolio">Portfólio</a></li>
+      <li><a data-nav="sobre">Sobre</a></li>
+      <li><a data-nav="blog">Blog</a></li>
+      <li><a data-nav="contato">Contato</a></li>
+    </ul>
+    <a href="#" class="nav-cta js-whats" target="_blank">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38c1.45.79 3.08 1.21 4.79 1.21 5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm5.8 14.03c-.24.68-1.4 1.3-1.94 1.38-.5.07-1.13.1-1.82-.11-.42-.13-.96-.31-1.65-.61-2.9-1.25-4.79-4.17-4.93-4.36-.14-.19-1.18-1.57-1.18-2.99s.75-2.12 1.01-2.41c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.98.88 2.12.07.14.12.31.02.5-.1.19-.15.31-.29.48-.14.17-.3.38-.43.51-.14.14-.29.29-.12.57.17.29.75 1.24 1.61 2.01 1.11.99 2.04 1.3 2.33 1.44.29.14.46.12.63-.07.17-.19.72-.84.91-1.13.19-.29.38-.24.64-.14.26.1 1.65.78 1.93.92.29.14.48.21.55.33.07.12.07.68-.17 1.36z"/></svg>
+      Orçamento
+    </a>
+    <button class="menu-toggle" id="menuToggle">☰</button>
+  </div>
+</nav>
+
+<!-- ============ HOME ============ -->
+<section id="tela-home" class="tela ativa" data-tela="home">
+  <div class="hero">
+    <div class="hero-badge">
+      <span class="pulse-dot"></span>
+      Especialistas em Chillers Industriais e Hospitalares
+    </div>
+    <h1>Potência e Clima na Medida Certa para sua Empresa!</h1>
+    <p>Somos especialistas em manutenção elétrica e refrigeração de chillers para indústrias e empresas, atuando em todo o Brasil. Com técnicos experientes e qualificados, fornecimento de peças e atendimento rápido, garantimos eficiência, segurança e continuidade operacional para o seu negócio.</p>
+    <div class="hero-btns">
+      <button class="btn btn-primary" data-nav="servicos">
+        Conhecer Serviços
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </button>
+      <a href="#" class="btn btn-whats js-whats" target="_blank">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38c1.45.79 3.08 1.21 4.79 1.21 5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm5.8 14.03c-.24.68-1.4 1.3-1.94 1.38-.5.07-1.13.1-1.82-.11-.42-.13-.96-.31-1.65-.61-2.9-1.25-4.79-4.17-4.93-4.36-.14-.19-1.18-1.57-1.18-2.99s.75-2.12 1.01-2.41c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.98.88 2.12.07.14.12.31.02.5-.1.19-.15.31-.29.48-.14.17-.3.38-.43.51-.14.14-.29.29-.12.57.17.29.75 1.24 1.61 2.01 1.11.99 2.04 1.3 2.33 1.44.29.14.46.12.63-.07.17-.19.72-.84.91-1.13.19-.29.38-.24.64-.14.26.1 1.65.78 1.93.92.29.14.48.21.55.33.07.12.07.68-.17 1.36z"/></svg>
+        WhatsApp
+      </a>
+    </div>
+    <div class="hero-stats">
+      <div class="hero-stat"><div class="num" data-target="2" data-prefix="+">+0</div><p>Anos de experiência</p></div>
+      <div class="hero-stat"><div class="num" data-target="500" data-prefix="+">+0</div><p>Equipamentos atendidos</p></div>
+      <div class="hero-stat"><div class="num" data-target="100" data-suffix="%">0%</div><p>Atendimento nacional</p></div>
+      <div class="hero-stat"><div class="num" data-target="24" data-suffix="h">0h</div><p>Suporte emergencial</p></div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">O que fazemos</span>
+      <h2 class="section-title">Soluções Especializadas</h2>
+      <p class="section-sub">Atuamos nos segmentos elétrico e refrigeração, com foco em chillers industriais e hospitalares.</p>
+    </div>
+    <div class="grid-services">
+      <div class="card-service reveal">
+        <div class="card-icon">⚡</div>
+        <h3>Manutenção Elétrica</h3>
+        <p>Serviços especializados em chillers e sistemas de refrigeração, com diagnósticos avançados e retrofits.</p>
+        <button class="ver-mais" data-nav="detalhe-eletrica">Ver detalhes <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></button>
+      </div>
+      <div class="card-service reveal">
+        <div class="card-icon">❄️</div>
+        <h3>Refrigeração — Chillers</h3>
+        <p>Confiabilidade e performance em sistemas de grande porte, atendendo ambientes críticos.</p>
+        <button class="ver-mais" data-nav="detalhe-refrigeracao">Ver detalhes <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></button>
+      </div>
+      <div class="card-service reveal">
+        <div class="card-icon">🔧</div>
+        <h3>Comercialização de Peças</h3>
+        <p>Peças de reposição para chillers e sistemas elétricos com agilidade e segurança.</p>
+        <button class="ver-mais" data-nav="detalhe-pecas">Ver detalhes <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></button>
+      </div>
+    </div>
+
+    <div class="section-header reveal" style="margin-top: 80px;">
+      <span class="section-tag">Como trabalhamos</span>
+      <h2 class="section-title">Nosso Processo</h2>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item reveal"><span class="ano">ETAPA 01</span><h4>Contato e Diagnóstico</h4><p>Você entra em contato via WhatsApp ou formulário e nossa equipe faz o diagnóstico inicial.</p></div>
+      <div class="timeline-item reveal"><span class="ano">ETAPA 02</span><h4>Avaliação Técnica</h4><p>Nossos técnicos avaliam o equipamento em campo ou remotamente.</p></div>
+      <div class="timeline-item reveal"><span class="ano">ETAPA 03</span><h4>Orçamento Personalizado</h4><p>Elaboramos um orçamento detalhado, com escopo, prazo e valores transparentes.</p></div>
+      <div class="timeline-item reveal"><span class="ano">ETAPA 04</span><h4>Execução e Acompanhamento</h4><p>Realizamos o serviço com técnicos especializados.</p></div>
+      <div class="timeline-item reveal"><span class="ano">ETAPA 05</span><h4>Entrega e Suporte</h4><p>Entregamos o serviço concluído e seguimos oferecendo suporte contínuo.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVIÇOS ============ -->
+<section id="tela-servicos" class="tela" data-tela="servicos">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">O que fazemos</span>
+      <h2 class="section-title">Nossos Serviços</h2>
+      <p class="section-sub">Somos uma empresa especializada em soluções e manutenção para equipamentos do setor industrial, atuamos nos segmentos elétrico e refrigeração.</p>
+    </div>
+    <div class="grid-services">
+      <div class="card-service reveal">
+        <div class="card-icon">⚡</div>
+        <h3>Manutenção Elétrica</h3>
+        <p>Serviços especializados em chillers e sistemas de refrigeração.</p>
+        <ul>
+          <li>Manutenção preventiva e corretiva</li>
+          <li>Retrofits e modernizações</li>
+          <li>Startups e ajustes em sistemas microprocessados ou CLP</li>
+          <li>Montagem e readequação de painéis elétricos</li>
+          <li>Diagnósticos avançados para maior eficiência</li>
+        </ul>
+        <button class="ver-mais" data-nav="detalhe-eletrica">Ver detalhes <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></button>
+      </div>
+      <div class="card-service reveal">
+        <div class="card-icon">❄️</div>
+        <h3>Refrigeração — Chillers</h3>
+        <p>Confiabilidade e performance em sistemas de refrigeração de grande porte.</p>
+        <ul>
+          <li>Manutenção preventiva e corretiva</li>
+          <li>Limpeza de processos e trocadores</li>
+          <li>Reparos emergenciais</li>
+          <li>Reformas e modernizações de chillers</li>
+          <li>Suporte para ambientes críticos</li>
+        </ul>
+        <button class="ver-mais" data-nav="detalhe-refrigeracao">Ver detalhes <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></button>
+      </div>
+      <div class="card-service reveal">
+        <div class="card-icon">🔧</div>
+        <h3>Comercialização de Peças</h3>
+        <p>Peças de reposição para chillers e sistemas elétricos com agilidade e segurança.</p>
+        <ul>
+          <li>Componentes para chillers industriais e hospitalares</li>
+          <li>Peças elétricas de alta confiabilidade</li>
+          <li>Reposição rápida para evitar falhas</li>
+          <li>Redução de riscos operacionais</li>
+        </ul>
+        <button class="ver-mais" data-nav="detalhe-pecas">Ver detalhes <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DETALHE ELÉTRICA ============ -->
+<section id="tela-detalhe-eletrica" class="tela" data-tela="detalhe-eletrica">
+  <div class="container">
+    <button class="btn-voltar" data-nav="servicos">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+      Voltar para Serviços
+    </button>
+    <div class="detalhe-hero reveal">
+      <div class="icon-grande">⚡</div>
+      <h1>Manutenção Elétrica</h1>
+      <p>Serviços especializados em chillers e sistemas de refrigeração, com técnicos experientes e qualificados para garantir eficiência, segurança e continuidade operacional.</p>
+    </div>
+    <div class="detalhe-grid">
+      <div class="detalhe-item reveal"><h3>Manutenção Preventiva e Corretiva</h3><p>Planos que evitam paradas inesperadas e garantem o funcionamento contínuo.</p></div>
+      <div class="detalhe-item reveal"><h3>Retrofits e Modernizações</h3><p>Atualização de sistemas antigos com tecnologia atual.</p></div>
+      <div class="detalhe-item reveal"><h3>Startups em CLP</h3><p>Configuração e ajuste de sistemas microprocessados ou CLP.</p></div>
+      <div class="detalhe-item reveal"><h3>Painéis Elétricos</h3><p>Montagem e readequação de painéis elétricos conforme normas técnicas.</p></div>
+      <div class="detalhe-item reveal"><h3>Diagnósticos Avançados</h3><p>Análise técnica para identificar falhas e propor soluções.</p></div>
+      <div class="detalhe-item reveal"><h3>Atendimento Emergencial</h3><p>Suporte 24h para situações críticas que exigem intervenção imediata.</p></div>
+    </div>
+    <div class="cta-box reveal">
+      <h2>Precisa de Manutenção Elétrica?</h2>
+      <p>Fale agora com nossa equipe e receba um orçamento personalizado.</p>
+      <a href="#" class="btn btn-whats js-whats" data-msg="Olá! Preciso de manutenção elétrica." target="_blank">Solicitar Orçamento</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DETALHE REFRIGERAÇÃO ============ -->
+<section id="tela-detalhe-refrigeracao" class="tela" data-tela="detalhe-refrigeracao">
+  <div class="container">
+    <button class="btn-voltar" data-nav="servicos">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+      Voltar para Serviços
+    </button>
+    <div class="detalhe-hero reveal">
+      <div class="icon-grande">❄️</div>
+      <h1>Refrigeração — Chillers Industriais e Hospitalares</h1>
+      <p>Garantimos confiabilidade e performance em sistemas de refrigeração de grande porte, atendendo ambientes críticos como hospitais, indústrias e data centers.</p>
+    </div>
+    <div class="detalhe-grid">
+      <div class="detalhe-item reveal"><h3>Manutenção Preventiva e Corretiva</h3><p>Planos completos para garantir o funcionamento contínuo dos chillers.</p></div>
+      <div class="detalhe-item reveal"><h3>Limpeza de Processos e Trocadores</h3><p>Limpeza técnica especializada para manter a eficiência térmica.</p></div>
+      <div class="detalhe-item reveal"><h3>Reparos Emergenciais</h3><p>Atendimento rápido para minimizar paradas e prejuízos.</p></div>
+      <div class="detalhe-item reveal"><h3>Reformas e Modernizações</h3><p>Reforma completa de chillers com substituição de componentes.</p></div>
+      <div class="detalhe-item reveal"><h3>Ambientes Críticos</h3><p>Suporte para hospitais, indústrias e data centers.</p></div>
+      <div class="detalhe-item reveal"><h3>Recarga de Gás</h3><p>Recarga de gás refrigerante e substituição de componentes.</p></div>
+    </div>
+    <div class="cta-box reveal">
+      <h2>Precisa de Refrigeração Especializada?</h2>
+      <p>Fale agora com nossa equipe e receba um orçamento personalizado.</p>
+      <a href="#" class="btn btn-whats js-whats" data-msg="Olá! Preciso de manutenção em chiller." target="_blank">Solicitar Orçamento</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DETALHE PEÇAS ============ -->
+<section id="tela-detalhe-pecas" class="tela" data-tela="detalhe-pecas">
+  <div class="container">
+    <button class="btn-voltar" data-nav="servicos">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+      Voltar para Serviços
+    </button>
+    <div class="detalhe-hero reveal">
+      <div class="icon-grande">🔧</div>
+      <h1>Comercialização de Peças</h1>
+      <p>Fornecemos peças de reposição para chillers e sistemas elétricos com agilidade e segurança, garantindo reposição rápida para evitar falhas e reduzir riscos em sua operação.</p>
+    </div>
+    <div class="detalhe-grid">
+      <div class="detalhe-item reveal"><h3>Componentes para Chillers</h3><p>Peças originais e de alta qualidade para chillers industriais e hospitalares.</p></div>
+      <div class="detalhe-item reveal"><h3>Peças Elétricas</h3><p>Componentes elétricos de alta confiabilidade.</p></div>
+      <div class="detalhe-item reveal"><h3>Reposição Rápida</h3><p>Agilidade na entrega para evitar falhas.</p></div>
+      <div class="detalhe-item reveal"><h3>Suporte Técnico</h3><p>Orientação especializada na escolha da peça correta.</p></div>
+    </div>
+    <div class="cta-box reveal">
+      <h2>Precisa de Peças de Reposição?</h2>
+      <p>Fale agora com nossa equipe e solicite um orçamento personalizado.</p>
+      <a href="#" class="btn btn-whats js-whats" data-msg="Olá! Preciso de peças de reposição." target="_blank">Solicitar Orçamento</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PORTFÓLIO ============ -->
+<section id="tela-portfolio" class="tela" data-tela="portfolio">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">Nossos Projetos</span>
+      <h2 class="section-title">Portfólio de Projetos</h2>
+      <p class="section-sub">Cases reais de manutenção, modernização e suporte em ambientes críticos.</p>
+    </div>
+    <div class="filtros reveal">
+      <button class="filtro ativo" data-filtro="todos">Todos</button>
+      <button class="filtro" data-filtro="refrigeracao">Refrigeração</button>
+      <button class="filtro" data-filtro="eletrica">Elétrica</button>
+      <button class="filtro" data-filtro="emergencia">Emergência</button>
+      <button class="filtro" data-filtro="automacao">Automação</button>
+    </div>
+    <div class="grid-portfolio" id="gridPortfolio">
+      <div class="case reveal" data-cat="refrigeracao"><div class="case-img">🏥</div><div class="case-info"><h4>Chiller Hospitalar — São Paulo</h4><p>Manutenção preventiva completa em chiller de grande porte, garantindo climatização de centro cirúrgico.</p><span class="case-tag">Refrigeração</span></div></div>
+      <div class="case reveal" data-cat="eletrica"><div class="case-img">🏭</div><div class="case-info"><h4>Retrofit Industrial — Minas Gerais</h4><p>Modernização de painel elétrico e substituição de componentes obsoletos.</p><span class="case-tag">Elétrica</span></div></div>
+      <div class="case reveal" data-cat="emergencia"><div class="case-img">💻</div><div class="case-info"><h4>Data Center — Rio de Janeiro</h4><p>Manutenção emergencial em sistema de refrigeração.</p><span class="case-tag">Emergência</span></div></div>
+      <div class="case reveal" data-cat="automacao"><div class="case-img">⚙️</div><div class="case-info"><h4>Startup em CLP — Paraná</h4><p>Configuração e ajuste de sistema microprocessado.</p><span class="case-tag">Automação</span></div></div>
+      <div class="case reveal" data-cat="refrigeracao"><div class="case-img">🧊</div><div class="case-info"><h4>Reforma de Chiller — Bahia</h4><p>Reforma completa com substituição de trocadores e recarga de gás.</p><span class="case-tag">Refrigeração</span></div></div>
+      <div class="case reveal" data-cat="eletrica"><div class="case-img">🔌</div><div class="case-info"><h4>Painéis Elétricos — Goiás</h4><p>Montagem e readequação de painéis elétricos.</p><span class="case-tag">Elétrica</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SOBRE ============ -->
+<section id="tela-sobre" class="tela" data-tela="sobre">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">Quem Somos</span>
+      <h2 class="section-title">Por Que Escolher a Sinetec</h2>
+      <p class="section-sub">Excelência em Manutenção Industrial</p>
+    </div>
+    <div class="grid-diff" style="margin-bottom: 60px;">
+      <div class="diff-item reveal"><div class="num" data-target="15" data-prefix="+">+0</div><p>Anos de experiência</p></div>
+      <div class="diff-item reveal"><div class="num" data-target="100" data-suffix="%">0%</div><p>Atendimento nacional</p></div>
+      <div class="diff-item reveal"><div class="num" data-target="24" data-suffix="h">0h</div><p>Suporte emergencial</p></div>
+      <div class="diff-item reveal"><div class="num" data-target="500" data-prefix="+">+0</div><p>Equipamentos atendidos</p></div>
+    </div>
+
+    <div class="section-header reveal">
+      <h2 class="section-title">Atendemos Todo o Território Nacional</h2>
+      <p class="section-sub">Atendimento em campo e remoto para os mais diversos segmentos</p>
+    </div>
+  <div class="areas-grid">
+  <div class="area-item reveal"><div class="area-icon">🏭</div><h4>Indústrias</h4><p>Manutenção de chillers e sistemas elétricos de grande porte</p></div>
+  <div class="area-item reveal"><div class="area-icon">🏢</div><h4>Empresas</h4><p>Soluções personalizadas para cada cliente corporativo</p></div>
+  <div class="area-item reveal"><div class="area-icon">⚙️</div><h4>Plantas Industriais</h4><p>Sistemas de refrigeração para linhas de produção</p></div>
+  <div class="area-item reveal"><div class="area-icon">🔌</div><h4>Setor Elétrico</h4><p>Painéis, automação e sistemas de potência</p></div>
+</div>
+
+    <div class="section-header reveal" style="margin-top: 80px;">
+      <span class="section-tag">Depoimentos</span>
+      <h2 class="section-title">O Que Nossos Clientes Dizem</h2>
+    </div>
+    <div class="grid-depo">
+      <div class="depo reveal">
+        <div class="depo-stars">★★★★★</div>
+        <p>"A Sinetec atendeu nossa emergência em um domingo e evitou a parada total do centro cirúrgico. Equipe extremamente técnica."</p>
+        <div class="depo-autor"><div class="depo-avatar">RC</div><div><h5>Ricardo Costa</h5><span>Hospital — São Paulo</span></div></div>
+      </div>
+      <div class="depo reveal">
+        <div class="depo-stars">★★★★★</div>
+        <p>"Fazemos manutenção preventiva com a Sinetec há 3 anos. Nunca tivemos uma parada não planejada."</p>
+        <div class="depo-autor"><div class="depo-avatar">AM</div><div><h5>Ana Martins</h5><span>Indústria — Minas Gerais</span></div></div>
+      </div>
+      <div class="depo reveal">
+        <div class="depo-stars">★★★★★</div>
+        <p>"O retrofit reduziu o consumo de energia em 20%. Investimento que se pagou rápido."</p>
+        <div class="depo-autor"><div class="depo-avatar">PS</div><div><h5>Paulo Silva</h5><span>Data Center — Rio de Janeiro</span></div></div>
+      </div>
+    </div>
+
+    <div class="section-header reveal" style="margin-top: 80px;">
+      <span class="section-tag">Dúvidas</span>
+      <h2 class="section-title">Perguntas Frequentes</h2>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item reveal">
+        <div class="faq-pergunta"><span>Vocês atendem em todo o Brasil?</span><div class="faq-icon">+</div></div>
+        <div class="faq-resposta">Sim! Atendemos todo o território nacional, tanto em campo quanto remotamente.</div>
+      </div>
+      <div class="faq-item reveal">
+        <div class="faq-pergunta"><span>Qual o prazo de atendimento para emergências?</span><div class="faq-icon">+</div></div>
+        <div class="faq-resposta">Nosso suporte emergencial funciona 24h. Após o contato, mobilizamos a equipe mais próxima.</div>
+      </div>
+      <div class="faq-item reveal">
+        <div class="faq-pergunta"><span>Vocês fornecem peças de reposição?</span><div class="faq-icon">+</div></div>
+        <div class="faq-resposta">Sim, comercializamos peças para chillers industriais e hospitalares.</div>
+      </div>
+      <div class="faq-item reveal">
+        <div class="faq-pergunta"><span>Fazem contratos de manutenção preventiva?</span><div class="faq-icon">+</div></div>
+        <div class="faq-resposta">Sim, elaboramos planos personalizados conforme a necessidade do seu equipamento.</div>
+      </div>
+      <div class="faq-item reveal">
+        <div class="faq-pergunta"><span>Atendem hospitais e data centers?</span><div class="faq-icon">+</div></div>
+        <div class="faq-resposta">Sim, somos especializados em ambientes críticos onde a continuidade operacional é essencial.</div>
+      </div>
+      <div class="faq-item reveal">
+        <div class="faq-pergunta"><span>Vocês trabalham com retrofit?</span><div class="faq-icon">+</div></div>
+        <div class="faq-resposta">Sim, realizamos retrofits em painéis elétricos e sistemas de refrigeração.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BLOG ============ -->
+<section id="tela-blog" class="tela" data-tela="blog">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">Conhecimento Técnico</span>
+      <h2 class="section-title">Blog Sinetec</h2>
+      <p class="section-sub">Dicas, novidades e informações sobre manutenção de chillers.</p>
+    </div>
+    <div class="grid-blog">
+      <div class="post reveal"><div class="post-img">❄️</div><div class="post-info"><span class="post-cat">Refrigeração</span><h4>Como aumentar a vida útil do seu chiller industrial</h4><p>Práticas essenciais de manutenção preventiva que prolongam a vida útil.</p></div></div>
+      <div class="post reveal"><div class="post-img">⚡</div><div class="post-info"><span class="post-cat">Elétrica</span><h4>Retrofit em painéis elétricos: quando vale a pena?</h4><p>Entenda quando a modernização se torna um investimento vantajoso.</p></div></div>
+      <div class="post reveal"><div class="post-img">🏥</div><div class="post-info"><span class="post-cat">Ambientes Críticos</span><h4>Manutenção em hospitais: por que é diferente?</h4><p>Os desafios e cuidados especiais em ambientes hospitalares.</p></div></div>
+      <div class="post reveal"><div class="post-img">⚙️</div><div class="post-info"><span class="post-cat">Automação</span><h4>Startup em CLP: o que é e por que é importante</h4><p>Entenda o processo de startup em sistemas CLP.</p></div></div>
+      <div class="post reveal"><div class="post-img">📊</div><div class="post-info"><span class="post-cat">Gestão</span><h4>Manutenção preventiva x corretiva: qual escolher?</h4><p>Compare os dois modelos e descubra o melhor para sua operação.</p></div></div>
+      <div class="post reveal"><div class="post-img">🌡️</div><div class="post-info"><span class="post-cat">Refrigeração</span><h4>Sinais de que seu chiller precisa de manutenção urgente</h4><p>Aprenda a identificar os principais sinais de alerta.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTATO ============ -->
+<section id="tela-contato" class="tela" data-tela="contato">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">Fale Conosco</span>
+      <h2 class="section-title">Para Informações e Orçamentos</h2>
+      <p class="section-sub">Somos uma empresa especializada em soluções e manutenção para equipamentos do setor industrial.</p>
+    </div>
+
+    <div class="info-cards reveal">
+      <div class="info-card">
+        <span class="icone">📧</span>
+        <h4>E-mail Comercial</h4>
+        <p><a href="mailto:comercial@sinetecmanutencao.com">comercial@sinetecmanutencao.com</a></p>
+      </div>
+      <div class="info-card">
+        <span class="icone">💬</span>
+        <h4>WhatsApp</h4>
+        <p><a href="#" class="js-whats" target="_blank">Falar agora</a></p>
+      </div>
+      <div class="info-card">
+        <span class="icone">🌎</span>
+        <h4>Atendimento Nacional</h4>
+        <p>Todo o território brasileiro</p>
+      </div>
+      <div class="info-card">
+        <span class="icone">⏰</span>
+        <h4>Suporte Emergencial</h4>
+        <p>24 horas por dia</p>
+      </div>
+    </div>
+
+    <form class="form-contato reveal" id="formContato" style="margin-top: 60px;">
+      <div class="form-row">
+        <input type="text" name="nome" placeholder="Seu nome completo *" required>
+        <input type="email" name="email" placeholder="Seu e-mail *" required>
+      </div>
+      <div class="form-row">
+        <input type="tel" name="telefone" placeholder="Telefone / WhatsApp *" required>
+        <input type="text" name="empresa" placeholder="Empresa (opcional)">
+      </div>
+      <select name="servico" required>
+        <option value="">Selecione o serviço desejado *</option>
+        <option>Manutenção Elétrica</option>
+        <option>Refrigeração — Chillers</option>
+        <option>Comercialização de Peças</option>
+        <option>Emergência 24h</option>
+        <option>Manutenção Preventiva (contrato)</option>
+        <option>Retrofit / Modernização</option>
+        <option>Outro</option>
+      </select>
+      <textarea name="mensagem" placeholder="Descreva sua necessidade..." required></textarea>
+      <button type="submit" id="btnEnviar">Enviar Mensagem</button>
+      <div class="form-msg" id="formMsg"></div>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-col">
+      <h4>SINETEC Manutenção</h4>
+      <p>Especialistas em manutenção elétrica e refrigeração de chillers industriais e hospitalares.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Serviços</h4>
+      <a data-nav="detalhe-eletrica">Manutenção Elétrica</a>
+      <a data-nav="detalhe-refrigeracao">Refrigeração — Chillers</a>
+      <a data-nav="detalhe-pecas">Comercialização de Peças</a>
+    </div>
+    <div class="footer-col">
+      <h4>Suporte</h4>
+      <a data-nav="contato">Suporte para Emergências</a>
+      <a data-nav="sobre">Atendimento Nacional</a>
+      <a data-nav="sobre">Atendimento em Campo e Remoto</a>
+    </div>
+    <div class="footer-col">
+      <h4>Contato</h4>
+      <a href="mailto:comercial@sinetecmanutencao.com">comercial@sinetecmanutencao.com</a>
+      <a href="#" class="js-whats" target="_blank">WhatsApp Comercial</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    © 2025 Sinetec Manutenção – Todos os Direitos Reservados
+  </div>
+</footer>
+
+<!-- JS -->
+<script src="assets/js/config.js"></script>
+<script src="assets/js/navigation.js"></script>
+<script src="assets/js/animations.js"></script>
+<script src="assets/js/portfolio.js"></script>
+<script src="assets/js/faq.js"></script>
+<script src="assets/js/form.js"></script>
+</body>
+</html>
